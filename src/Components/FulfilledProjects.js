@@ -48,10 +48,38 @@ export default function FulfilledProjects() {
                 flyer2CerezaImg
             ]
         },
-        { appName: "Expo Renovables 2019", hint: t("expo_renovables_2019_hint"), id: "exporenovables2019" },
-        { appName: "My Miracle", hint: t("my_miracle_hint"), id: "mymiracle" },
-        { appName: "Tarjetaapp", hint: t("tarjetaapp_hint"), id: "tarjetaapp" },
-        { appName: "Repensando la basura", hint: t('seguridad_scanner_hint'), id: "repensandolabasura" },
+        {
+            appName: "Expo Renovables 2019", hint: t("expo_renovables_2019_hint"), id: "exporenovables2019",
+            images: [
+                "https://placeimg.com/640/480/arch",
+                "https://placeimg.com/640/480/beer",
+                "https://placeimg.com/640/480/animals",
+            ]
+        },
+        {
+            appName: "My Miracle", hint: t("my_miracle_hint"), id: "mymiracle",
+            images: [
+                "https://placeimg.com/640/480/nature",
+                "https://placeimg.com/640/480/any",
+                "https://placeimg.com/640/480/arch",
+            ]
+        },
+        {
+            appName: "Tarjetaapp", hint: t("tarjetaapp_hint"), id: "tarjetaapp",
+            images: [
+                "https://placeimg.com/640/560/tech",
+                "https://placeimg.com/640/520/animals",
+                "https://placeimg.com/640/480/arch",
+            ]
+        },
+        {
+            appName: "Repensando la basura", hint: t('seguridad_scanner_hint'), id: "repensandolabasura",
+            images: [
+                "https://placeimg.com/480/640/animals",
+                "https://placeimg.com/640/720/tech",
+                "https://placeimg.com/640/480/nature",
+            ]
+        },
     ]
     return (
         <section id="portafolio_home" className="panel color2-alt">
