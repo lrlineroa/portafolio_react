@@ -48,7 +48,7 @@ export default () => {
                         <a title="Work experience" href="#work_experience_home" className="button primary color1 circle icon solid fa-handshake" />
                     </li>
                     <li>
-                        <a href="https://github.com/lrlineroa" target="_blank">
+                        <a href="https://github.com/lrlineroa/portafolio_react" target="_blank">
                             <img src={github}
                              alt="github"
                                 style={{ display: 'flex', justifyContent: "center", alignItems: "center", borderRadius: "100%", width: "3.125rem", height: "3.125rem" }}
