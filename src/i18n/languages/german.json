@@ -24,6 +24,19 @@
    "name": "Name",
    "message": "Nachricht",
    "send_message": "Nachricht senden",
-   "contact":"Kontakt",
-   "contact_hint":"Schreibe mir und ich werde dir in Kürze antworten"
+   "contact": "Kontakt",
+   "contact_hint": "Schreibe mir und ich werde dir in Kürze antworten",
+   "fulfilled_projects": "Erfüllte Projekte",
+   "fulfilled_projects_hint": "Realisierung von Projekten in verschiedenen Themen mit den folgenden Technologien",
+   "frontend_libraries_and_frameworks": "Frontendrahmen und Frameworks",
+   "backend_libraries_and_frameworks": "Backend-Frameworks und Frameworks",
+   "databases": "Datenbanken",
+   "find_here_hint": "Dienstleistungen von Home Styling in London",
+   "cuploo_hint": "Geschwindigkeits-Dating-App.",
+   "expo_renovables_2019_hint": "App Event Expo-Renovables2019 in Bogotá",
+   "my_miracle_hint": "Verbinden Sie sich mit Ihren besten Power-Phrasen",
+   "tarjetaapp_hint": "Redire-Gutscheine und Rabatte in verschiedenen Unternehmen",
+   "seguridad_scanner_hint": "Sicherheitssystem Logistikmodul Scanner LTDA",
+   "cereza_hint": "Sortieren Sie aus dem Tisch, fragen Sie nach Häusern und mehr Vorteile mit Cereza App",
+   "re_pensando_la_basura_hint": "Antrag auf Recyclingförderung in College-Studenten"
 }

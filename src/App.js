@@ -13,6 +13,7 @@ import Gallery from './Components/Gallery';
 import EmploymentHistory from './Components/EmploymentHistory';
 import AppliedStudies from './Components/AppliedStudies';
 import Contact from './Components/Contact';
+import FulfilledProjects from './Components/FulfilledProjects';
 function App() {
   useEffect(
     () => {
@@ -28,7 +29,7 @@ function App() {
             <SpotLight />
             <AppliedStudies />
             <EmploymentHistory />
-            {/* <Gallery /> */}
+            <FulfilledProjects/>
             <Contact />
           </Wrapper>
         </PageWrapper>

@@ -4,7 +4,7 @@ import pic05 from '../assets/images/pic01.jpg';
 export default function EmploymentHistory() {
     const { t } = useTranslation();
     return (
-        <section className="panel spotlight short center">
+        <section id="work_experience_home" className="panel spotlight short center">
             <div className="content span-5">
                 <h2 className="major">{t("employment_history")}</h2>
                 <ul className="alt">
