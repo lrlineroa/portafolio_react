@@ -25,5 +25,19 @@
     "message":"Mensaje",
     "send_message":"Enviar Mensaje",
     "contact":"Contacto",
-    "contact_hint":"Escríbeme y te responderé en breve"
+    "contact_hint":"Escríbeme y te responderé en breve",
+    "fulfilled_projects":"Proyectos realizados",
+    "fulfilled_projects_hint":"Realización de proyectos en distintos temas, con las siguientes tecnologías",
+    "frontend_libraries_and_frameworks":"Librerías y frameworks de frontend",
+    "backend_libraries_and_frameworks":"Librerías y frameworks de frontend",
+    "databases":"Bases de datos",
+    "find_here_hint":"Servicios de estilismo a domicilio en Londres",
+    "cuploo_hint":"Speed Dating App",
+    "expo_renovables_2019_hint":"App del evento Expo-Renovables2019 en Bogotá",
+    "my_miracle_hint":"Conecta con tus mejores frases de poder",
+    "tarjetaapp_hint":"Redime cupones y descuentos a distintos negocios",
+    "seguridad_scanner_hint":"Módulo de logística del sistema de Seguridad Scanner LTDA",
+    "cereza_hint":"Ordena desde la mesa, pide domicilios y más beneficios con Cereza App",
+    "re_pensando_la_basura_hint":"Aplicación para el fomento de reciclaje en estudiantes de colegio",
+    "applications":"Aplicaciones"
 }

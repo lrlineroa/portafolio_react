@@ -24,6 +24,20 @@
    "name": "Name",
    "message": "Message",
    "send_message": "Send Message",
-   "contact":"Contact",
-   "contact_hint":"Write me and I will answer you shortly"
+   "contact": "Contact",
+   "contact_hint": "Write me and I will answer you shortly",
+   "fulfilled_projects": "Fulfilled projects",
+   "fulfilled_projects_hint": "Realization of projects in different topics, with the following technologies",
+   "frontend_libraries_and_frameworks": "Frontond Frameworks and Frameworks",
+   "backend_libraries_and_frameworks": "Frontond Frameworks and Frameworks",
+   "databases": "Databases",
+   "find_here_hint": "Services of home styling in London",
+   "cuploo_hint": "SpeedDating App",
+   "expo_renovables_2019_hint": "App Event Expo-renovables2019 in Bogotá",
+   "my_miracle_hint": "Connect with your best power phrases",
+   "tarjetaapp_hint": "Redire coupons and discounts at different businesses",
+   "seguridad_scanner_hint": "Logistics Module of Seguridad Scanner LTDA System",
+   "cereza_hint": "Ask from the table, ask for homes and more benefits with Cereza App",
+   "re_pensando_la_basura_hint": "Application for recycling promotion in school students",
+   "applications":"Applications"
 }
