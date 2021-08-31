@@ -13,6 +13,18 @@ import elementosSeguridadScannerImg from '../assets/images/gallery/fulls/segurid
 import flyerCerezaImg from '../assets/images/gallery/fulls/cereza/flyer.jpg';
 import newCerezaCerezaImg from '../assets/images/gallery/fulls/cereza/new_cereza.jpg';
 import flyer2CerezaImg from '../assets/images/gallery/fulls/cereza/flyer_2.jpg';
+import homeExpoRenovables from '../assets/images/gallery/fulls/expo_renovables_2019/home.jpg';
+import expositorsExpoRenovables from '../assets/images/gallery/fulls/expo_renovables_2019/expositors.jpg';
+import scheduleExpoRenovables from '../assets/images/gallery/fulls/expo_renovables_2019/schedule.jpg';
+import QRTarjetaapp from '../assets/images/gallery/fulls/tarjetaapp/tarjetaapp_QR.jpg';
+import registerTarjetaapp from '../assets/images/gallery/fulls/tarjetaapp/tarjetaapp_register.jpg';
+import loginTarjetaapp from '../assets/images/gallery/fulls/tarjetaapp/tarjetaapp_login.jpg';
+import homeMymiracle from '../assets/images/gallery/fulls/my_miracle/my_miracle_home.jpg';
+import loginMymiracle from '../assets/images/gallery/fulls/my_miracle/my_miracle_login.jpg';
+import QRMymiracle from '../assets/images/gallery/fulls/my_miracle/my_miracle_QR.jpg';
+import splashSermujer from '../assets/images/gallery/fulls/ser_mujer/ser_mujer_splash.jpg';
+import homeSerMujer from '../assets/images/gallery/fulls/ser_mujer/ser_mujer_home.jpg';
+import loginSermujer from '../assets/images/gallery/fulls/ser_mujer/ser_mujer_login.jpg';
 export default function FulfilledProjects() {
     const { t } = useTranslation();
     const projects = [
@@ -51,33 +63,33 @@ export default function FulfilledProjects() {
         {
             appName: "Expo Renovables 2019", hint: t("expo_renovables_2019_hint"), id: "exporenovables2019",
             images: [
-                "https://placeimg.com/640/480/arch",
-                "https://placeimg.com/640/480/beer",
-                "https://placeimg.com/640/480/animals",
+                homeExpoRenovables,
+                expositorsExpoRenovables,
+                scheduleExpoRenovables,
             ]
         },
         {
             appName: "My Miracle", hint: t("my_miracle_hint"), id: "mymiracle",
             images: [
-                "https://placeimg.com/640/480/nature",
-                "https://placeimg.com/640/480/any",
-                "https://placeimg.com/640/480/arch",
+                homeMymiracle,
+                loginMymiracle,
+                QRMymiracle,
             ]
         },
         {
             appName: "Tarjetaapp", hint: t("tarjetaapp_hint"), id: "tarjetaapp",
             images: [
-                "https://placeimg.com/640/560/tech",
-                "https://placeimg.com/640/520/animals",
-                "https://placeimg.com/640/480/arch",
+                QRTarjetaapp,
+                loginTarjetaapp,
+                registerTarjetaapp,
             ]
         },
         {
-            appName: "Repensando la basura", hint: t('seguridad_scanner_hint'), id: "repensandolabasura",
+            appName: "Ser Mujer", hint: t('ser_mujer_hint'), id: "sermujer",
             images: [
-                "https://placeimg.com/480/640/animals",
-                "https://placeimg.com/640/720/tech",
-                "https://placeimg.com/640/480/nature",
+                homeSerMujer,
+                splashSermujer,
+                loginSermujer,
             ]
         },
     ]
@@ -94,7 +106,7 @@ export default function FulfilledProjects() {
                     <li>React Native</li>
                     <li>IONIC</li>
                 </ul>
-                <h4>{t('frontend_libraries_and_frameworks')}</h4>
+                <h4>{t('backend_libraries_and_frameworks')}</h4>
                 <ul>
                     <li>Node, Express, Nextjs</li>
                     <li>Laravel PHP</li>
