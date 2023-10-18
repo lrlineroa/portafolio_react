@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  color:#6b21a8
+}
+
+.container{
+  width: 100%
+}

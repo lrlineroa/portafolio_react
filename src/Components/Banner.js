@@ -24,7 +24,7 @@ export default () => {
                 <p>{t('summary')}</p>
                 <ul className="actions">
                     <li>
-                        <a title={'Curriculum Vitae'} href="https://drive.google.com/file/d/1B989mtcam_A_wb2mKE_VUbOyv7ayc2HH/view?usp=sharing"
+                        <a title={'Curriculum Vitae'} href="https://drive.google.com/file/d/1mKMD84YIdizXf4g2ZYwySN6yueL7e9y2/view?usp=sharing"
                             target="_blank"
                             className="button primary color1 circle icon solid fa-file-download">
                         </a>

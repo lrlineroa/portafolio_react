@@ -16,7 +16,7 @@ export const STATUS = {
 export const LOCALES = {
 	ENGLISH: { id: 0, name: "en", label: "ENGLISH" },
 	ESPAÑOL: { id: 1, name: "es", label: "ESPAÑOL" },
-	GERMAN: { id: 2, name: "de", label: "GERMAN" },
+	// GERMAN: { id: 2, name: "de", label: "GERMAN" },
 };
 
 export const USER_INFO='userInfo'

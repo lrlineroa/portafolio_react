@@ -11,8 +11,8 @@ const LocaleContext = React.createContext();
 
 export const LocaleContextProvider = props => {
 	const userLang = navigator.language || navigator.userLanguage;
-	const languageCode=userLang.substr(0, 2);
-	const initialLanguage=getObjectById(LOCALES,languageCode,'name') || LOCALES.ENGLISH;
+	// const languageCode=userLang.substr(0, 2);
+	const initialLanguage= LOCALES.ENGLISH;
 	const [locale, changeLocale] = useStorage("@language", initialLanguage);
 	I18n.locale = locale.name;
 
